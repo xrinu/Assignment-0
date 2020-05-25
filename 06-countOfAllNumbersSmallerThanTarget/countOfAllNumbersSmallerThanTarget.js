@@ -1,5 +1,13 @@
-function countOfAllNumbersSmallerThanTarget(nums, target) {
-  // Insert code here;
+function countOfAllNumbersSmallerThanTarget(nums, target) {4
+	var count =0;
+  for(var i=0; i<nums.length; i++)
+  {
+  	if(nums[i] < target)
+  	{
+  		count++;
+  	}
+  }
+  return count;
 }
 
 // Do not edit this line;
